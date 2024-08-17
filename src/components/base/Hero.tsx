@@ -7,12 +7,17 @@ const Hero = () => {
       <Column>
         <h2>AAR.DEV</h2>
         <p>
-          Welcome, I'm Aar. I'm a Frontend Developer, tech Enthusiast, and write
-          about{" "}
+          Welcome, I'm Aar. I'm a Frontend Developer, tech Enthusiast, and will
+          start to write about{" "}
           <span>
             {"<"}
             <Typewriter
-              words={[`Frontend${"/>"}`, `Tech${"/>"}`, `Gaming${"/>"}`]}
+              words={[
+                `Frontend${"/>"}`,
+                `UX${"/>"}`,
+                `Tech${"/>"}`,
+                `Gaming${"/>"}`,
+              ]}
               loop={true}
               cursor
               cursorStyle="_"
@@ -21,7 +26,6 @@ const Hero = () => {
               delaySpeed={2500}
             />
           </span>{" "}
-          and much more.
         </p>
       </Column>
     </Container>

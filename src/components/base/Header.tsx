@@ -6,7 +6,7 @@ const Header = () => {
     <StyledHeader>
       <LogoWrapper>
         <span>AAR</span>
-        <span>.DEV</span>
+        <span>DEV</span>
       </LogoWrapper>
       <nav>
         <List>
